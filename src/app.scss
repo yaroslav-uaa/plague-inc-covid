@@ -1,0 +1,42 @@
+@import 'modules/mainPage/mainPage';
+@import 'modules/countryPage/countryPage';
+
+body {
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #0000006b, #00000057),
+    url('../src/assets/imgonline-com-ua-Mirror-0c1sFsqJYmS3stS.jpg');
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.MuiPickerStaticWrapper-root {
+    background-color: transparent !important;
+
+    .MuiButtonBase-root.PrivateDateRangePickerToolbar-penIcon {
+        display: none;
+    }
+
+    * {
+        color: #fff !important;
+    }
+
+    .MuiDateRangePickerDay-rangeIntervalDayHighlight {
+        background: #b35d77a4;
+    }
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

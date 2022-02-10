@@ -1,0 +1,50 @@
+.mainPage {
+    display: flex;
+    position: relative;
+}
+
+.map {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.boldText {
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 0 0 4px #86072de6;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100vh;
+    background: linear-gradient(to right, #000000dc, transparent), rgba(0, 0, 0, 0.363);
+    color: #f5f5f5;
+    padding: 20px;
+    @media screen and(max-width: 900px) {
+        width: 100vw;
+        height: 20vh;
+    }
+}
+#mui-1,
+#mui-2,
+#mui-3,
+#mui-4{
+    color: white !important;
+}
+
+.table__rating{
+    width: 340px;
+    height: 180px;
+}
+.country__name{
+    text-align: center;
+    font-weight: 700;
+}

@@ -1,0 +1,25 @@
+.singlePageSidebar {
+    width: 360px;
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to right, #000000dc, transparent), rgba(0, 0, 0, 0.363);
+}
+
+.singlePage {
+    display: flex;
+}
+
+.currentStats {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    div:first-of-type {
+        margin-right: 40px;
+    }
+}
+.css-1rhx85y-MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day:not(.Mui-selected) {
+    border: 1px solid #ad031f !important;
+}
+
